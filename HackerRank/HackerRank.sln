@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProblemSolving", "ProblemSolving", "{84668393-E8FC-46CE-9AD9-10387C2E2342}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayCakeCandles", "BirthdayCakeCandles\BirthdayCakeCandles.csproj", "{4799C3EA-BAEC-43AD-B891-7CA0582B72AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4799C3EA-BAEC-43AD-B891-7CA0582B72AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4799C3EA-BAEC-43AD-B891-7CA0582B72AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4799C3EA-BAEC-43AD-B891-7CA0582B72AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4799C3EA-BAEC-43AD-B891-7CA0582B72AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4799C3EA-BAEC-43AD-B891-7CA0582B72AB} = {84668393-E8FC-46CE-9AD9-10387C2E2342}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1593182-F55B-42B9-AABA-665442328490}
+	EndGlobalSection
+EndGlobal
