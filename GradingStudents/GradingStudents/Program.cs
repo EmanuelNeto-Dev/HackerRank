@@ -32,9 +32,6 @@ namespace GradingStudents
         {
             var gradesRevised = new List<int>();
             
-            if (grades.Count == 0)
-                return grades;
-            
             foreach (var grade in grades)
             {
                 var mod = (grade + 2) % 5;
