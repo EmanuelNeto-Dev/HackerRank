@@ -14,7 +14,7 @@ namespace BeautifulDaysAtTheMovies
             
             for (var index = i; index <= j; index++)
             {
-                double number = (double) (index - ReverseTheNumber(index)) / k;
+                var number = (double) (index - ReverseTheNumber(index)) / k;
 
                 if (number % 1 == 0)
                     days++;
