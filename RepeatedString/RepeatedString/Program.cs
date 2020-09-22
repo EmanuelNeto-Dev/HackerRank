@@ -10,8 +10,6 @@ namespace RepeatedString
     {
         static long RepeatedString(string s, long n)
         {
-            long count = 0;
-
             long min = n / s.Length;
             int rem =  (int) Math.Round((double) n % s.Length);
 
@@ -22,7 +20,7 @@ namespace RepeatedString
                     found++;
             }
 
-            count = found * min;
+            long count = found * min;
             if (rem == 0)
                 return count;
             else
