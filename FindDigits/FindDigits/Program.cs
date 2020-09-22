@@ -23,7 +23,7 @@ namespace FindDigits
             }
 
             return digits;
-        }
+        } 
 
         static void Main(string[] args)
         {
